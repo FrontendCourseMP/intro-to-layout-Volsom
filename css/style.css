@@ -23,3 +23,6 @@
     src: url(/fonts/Roboto-Regular.ttf) format(ttf);
     font-weight: 400;
 }
+:root {
+    font-size: 62.5%;
+}
