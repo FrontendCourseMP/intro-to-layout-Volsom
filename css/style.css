@@ -1,28 +1,149 @@
 .visually-hidden {
     visibility: hidden;
 }
-/* font-style__weight */
-/* Regular 400, Medium 500, Bold 700, Black 900 */
-@font-face {
-    font-family: 'Roboto-Black';
-    src: url(/fonts/Roboto-Black.ttf) format(ttf);
-    font-weight: 900;
+ul {
+    list-style-type: none;
 }
-@font-face {
-    font-family: 'Roboto-Bold';
-    src: url(/fonts/Roboto-Bold.ttf) format(ttf);
-    font-weight: 700;
+.advantages__list-1 {
+    list-style-image:url();
+    padding: 5% 5% 5% 5%;
+    background-color: var(--main-color);
+    max-width: 384px;
+    border-radius: 4px;
+    text-align: left;
+    margin: 5% 5% 5% 5%;
+    
 }
-@font-face {
-    font-family: 'Roboto-Medium';
-    src: url(/fonts/Roboto-Medium.ttf) format(ttf);
-    font-weight: 500;
+.advantages__list-2 {
+    list-style-image:url();
+    padding: 5% 5% 5% 5%;
+    background-color: var(--main-color);
+    max-width: 384px;
+    border-radius: 4px;
+    text-align: left;
+    margin: 5% 5% 5% 5%;
 }
-@font-face {
-    font-family: 'Roboto-Black';
-    src: url(/fonts/Roboto-Regular.ttf) format(ttf);
-    font-weight: 400;
+.advantages__list-3 {
+    list-style-image:url();
+    padding: 5% 5% 5% 5%;
+    background-color: var(--main-color);
+    max-width: 384px;
+    border-radius: 4px;
+    text-align: left;
+    margin: 5% 5% 5% 5%;
 }
 :root {
     font-size: 62.5%;
+    --main-color: #FFF;
+    --blue: #1A4D70;
+    --grey-medimum: #D8D8D8;
+    --orange: #F9572B;
+    --grey-soft: #EFEFEF;
+    --grey-hard: #777777;
+    font-family: Roboto;
+}
+/* font-style__weight */
+/* Regular 400, Medium 500, Bold 700, Black 900 */
+html {
+    background-color: var(--main-color);
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--main-color);
+    margin-left: 10%;
+}
+h2 {
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+h4 {
+    font-size: 1rem;
+    font-weight: 900;
+}
+p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+label {
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+.contact-footer__orange--location-p, li, .contact__link-2, .contact__link-1, button {
+    font-weight: 500;
+    font-size: 1rem;
+}
+.contacts, .about, .equipment, .advantages__list, .customers, .objects, .about__p, .location__p {
+    color: var(--blue);
+}
+.contact-footer__orange {
+    background-color: var(--orange);
+}
+.send, .header__menu {
+    background-color: var(--orange);
+    color: var(--main-color);
+    border: none;
+    border-radius: 4px;
+}
+.orange-text {
+    color: var(--orange);
+}
+.about,.equipment__list-button, .equipment__list-button--BA100KD193, .equipment__list-button--BA150ED285, .equipment__list-button--BA180ED328, .equipment__list-button--BA300ED328, .equipment__list-button--PT150D155  {
+    background-color: var(--grey-soft);
+    color: var(--blue);
+    border: none;
+}
+.equipment__list-button {
+    height: 51px;
+    margin-bottom: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.equipment__list-button--PT150D155 {
+    padding-right: 5%;
+}
+.contact-footer__grey {
+    background-color: var(--grey-hard);
+}
+.contact-footer, .consultation, .advantages__title {
+    color: var(--main-color);
+    background-color: #0F2D49;
+}
+.advantages {
+    background-color: #0F2D49;
+    padding-bottom: 5%;
+}
+.home {
+    background-color: #B27C4B;
+}
+.advantages__title {
+    padding-top: 5%;
+}
+.equipment__title {
+    text-align: center;
+}
+.equipment {
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 1200px;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+.header-logo {
+    padding-left: 10%;
+    padding-right: 50%;
 }
