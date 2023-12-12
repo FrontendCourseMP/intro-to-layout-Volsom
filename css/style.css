@@ -4,33 +4,44 @@
 ul {
     list-style-type: none;
 }
+ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
 .advantages__list-1 {
     list-style-image:url();
     padding: 5% 5% 5% 5%;
     background-color: var(--main-color);
-    max-width: 384px;
+    max-width: 260px;
+    width: 260px;
     border-radius: 4px;
     text-align: left;
     margin: 5% 5% 5% 5%;
+    height: 418px;
     
 }
 .advantages__list-2 {
     list-style-image:url();
     padding: 5% 5% 5% 5%;
     background-color: var(--main-color);
-    max-width: 384px;
+    max-width: 260px;
+    width: 260px;
     border-radius: 4px;
     text-align: left;
     margin: 5% 5% 5% 5%;
+    height: 418px;
 }
 .advantages__list-3 {
     list-style-image:url();
     padding: 5% 5% 5% 5%;
     background-color: var(--main-color);
-    max-width: 384px;
+    max-width: 260px;
+    width: 260px;
     border-radius: 4px;
     text-align: left;
     margin: 5% 5% 5% 5%;
+    height: 418px;
 }
 :root {
     font-size: 62.5%;
@@ -49,37 +60,40 @@ html {
 }
 a {
     text-decoration: none;
+    font-size: 1.6rem;
 }
 h1 {
     text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
-    font-size: 2rem;
+    font-size: 3.2rem;
     font-weight: 700;
     color: var(--main-color);
-    margin-left: 10%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding: 8%;
 }
 h2 {
-    font-size: 2.25rem;
+    font-size: 3.6rem;
     font-weight: 700;
 }
 h3 {
-    font-size: 1.5rem;
+    font-size: 2.4rem;
     font-weight: 700;
 }
 h4 {
-    font-size: 1rem;
+    font-size: 1.6rem;
     font-weight: 900;
 }
 p {
-    font-size: 1rem;
+    font-size: 1.6rem;
     font-weight: 400;
 }
 label {
-    font-size: 0.875rem;
+    font-size: 1.4rem;
     font-weight: 400;
 }
 .contact-footer__orange--location-p, li, .contact__link-2, .contact__link-1, button {
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1.6rem;
 }
 .contacts, .about, .equipment, .advantages__list, .customers, .objects, .about__p, .location__p {
     color: var(--blue);
@@ -103,16 +117,12 @@ label {
 }
 .equipment__list-button {
     height: 51px;
+    margin-left: -15%;
     margin-bottom: 10%;
-    margin-left: 20%;
-    margin-right: 20%;
     margin-top: 10%;
     display: flex;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-.equipment__list-button--PT150D155 {
-    padding-right: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 .contact-footer__grey {
     background-color: var(--grey-hard);
@@ -127,6 +137,7 @@ label {
 }
 .home {
     background-color: #B27C4B;
+    padding-bottom: 5%;
 }
 .advantages__title {
     padding-top: 5%;
@@ -148,8 +159,312 @@ header {
     padding-right: 50%;
 }
 .contact-title-1 {
-    font-size: 1rem;
+    font-size: 1.6rem;
+    font-weight: 900;
 }
 .location-title-1 {
-    font-size: 1rem;
+    font-size: 1.6rem;
+    font-weight: 900;
+}
+.about__stat-1 {
+    font-size: 1.6rem;
+    font-weight: 900;
+}
+.about__stat-2 {
+    font-size: 1.6rem;
+    font-weight: 900;
+}
+.about__stat-3 {
+    font-size: 1.6rem;
+    font-weight: 900;
+}
+header {
+    box-sizing: border-box;
+    max-width: 1024px;
+}
+section {
+    box-sizing: border-box;
+}
+.home-img {
+    display: flex;
+    max-width: 590px;
+    width: 317px;
+    height: 219px;
+    max-height: 392px;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.send {
+    box-sizing: content-box;
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: auto;
+    font-size: 1.6rem;
+}
+.header__menu {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    width: 32px;
+    height: 32px;
+}
+.header-logo {
+    box-sizing: content-box;
+    width: 117px;
+    height: 46px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.header-img {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+.contacts {
+    display: flex;
+    justify-content: center;
+    box-sizing: content-box;
+}
+.contacts__wrapper {
+    margin-top: 5%;
+}
+.about {
+    display: flex;
+    justify-content: center;
+    box-sizing: content-box;
+}
+.about__wrapper {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.about-title {
+    text-align: center;
+}
+.about__p {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.about__about-stat-1 {
+    height: 200px;
+    box-sizing: border-box;
+}
+.about__stat-img-1 {
+    display: flex;
+    box-sizing: border-box;
+    width: 180px;
+    height: 107px;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 30%;
+    margin-bottom: 5%;
+}
+.about__stat-1 {
+    display: flex;
+    box-sizing: border-box;
+    height: 38px;
+    width: 200px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.about__about-stat-2 {
+    height: 200px;
+    box-sizing: border-box;
+}
+.about__stat-img-2 {
+    display: flex;
+    box-sizing: border-box;
+    width: 180px;
+    height: 107px;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 30%;
+    margin-bottom: 5%;
+}
+.about__stat-2 {
+    display: flex;
+    box-sizing: border-box;
+    height: 38px;
+    width: 200px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.about__about-stat-3 {
+    height: 200px;
+    box-sizing: border-box;
+}
+.about__stat-img-3 {
+    display: flex;
+    box-sizing: border-box;
+    width: 180px;
+    height: 107px;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 30%;
+    margin-bottom: 5%;
+}
+.about__stat-3 {
+    display: flex;
+    box-sizing: border-box;
+    height: 38px;
+    width: 200px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.about-img {
+    display: flex;
+    box-sizing: border-box;
+    width: 534px;
+    height: 242px;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-bottom: 5%;
+}
+img {
+    box-sizing: border-box;
+}
+section {
+    box-sizing: content-box;
+}
+.equipment__list-button {
+    width: 392px;
+}
+.equipment__list-button--BA100KD193 {
+    font-size: 1.6rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 138px;
+    text-wrap: nowrap;
+}
+.equipment__list-button--PT150D155 {
+    font-size: 1.6rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 138px;
+    text-wrap: nowrap;
+}
+.equipment__list-button--BA150ED285 {
+    font-size: 1.6rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 138px;
+    text-wrap: nowrap;
+}
+.equipment__list-button--BA180ED328 {
+    font-size: 1.6rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 138px;
+    text-wrap: nowrap;
+}
+.equipment__list-button--BA300ED328 {
+    font-size: 1.6rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 138px;
+    text-wrap: nowrap;
+}
+.advantages__wrapper {
+    box-sizing: content-box;
+}
+.advantages__title {
+    text-align: center;
+    max-width: 1200px;
+}
+.contacts__contact--contact {
+    display: flex;
+    justify-content: center;
+    max-width: 364px;
+    width: 364px;
+    margin-right: 5%;
+}
+.contacts__contact--location {
+    display: flex;
+    justify-content: center;
+    max-width: 364px;
+    width: 364px;
+    margin-right: 5%;
+}
+.contact__img-1 {
+    box-sizing: border-box;
+    width: 58px;
+    height: 58px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.location__img-1 {
+    box-sizing: border-box;
+    width: 58px;
+    height: 58px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.location__text-wrapper {
+    max-width: 272px;
+}
+.customers__title {
+    text-align: center;
+}
+.customers__list {
+    box-sizing: border-box;
+    max-width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.customers__list-1 {
+    max-width: 323px;
+    max-height: 124px;
+    width: 231px;
+    height: 124px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.customers__list-2 {
+    max-width: 323px;
+    max-height: 124px;
+    width: 269px;
+    height: 58px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.customers__list-3 {
+    max-width: 323px;
+    max-height: 124px;
+    width: 175px;
+    height: 118px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.customers__list-4 {
+    max-width: 323px;
+    max-height: 124px;
+    width: 221px;
+    height: 47px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.consultation__title {
+    text-align: center;
+    padding: 5%;
+}
+form {
+    margin: 1%;
+    padding: 10%;
+    box-sizing: border-box;
+}
+.consultation {
+    padding: 1%;
 }
