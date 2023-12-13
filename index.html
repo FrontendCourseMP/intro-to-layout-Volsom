@@ -25,7 +25,7 @@
                     <img src="#" alt="Иконка контактов 1" class="contact__img-1">
                     <div class="contact__text-wrapper">
                         <h2 class="contact-title-1">Связь с нами</h2>
-                        <a href="tel:+78006001505" class = 'contact__link'>8 800 600-15-05</a>
+                        <a href="tel:+78006001505" class = 'contact__link'>8 800 600-15-05</a> <br>
                         <a href="mailto:office@sahara-group.ru" class= "contact__link">office@sahara-group.ru</a>
                     </div>
                 </div>
@@ -43,6 +43,7 @@
         <section class="about">
             <div class="about__wrapper">
                 <h2 class="about-title">О компании</h2>
+                <span class="under-line"></span>
                 <p class="about__p">
                     Уже более 8 лет специалисты компании Сахара Груп решают задачи любой сложности как в сфере водоотведения при проведении бестраншейного ремонта и строительства наружных сетей водоснабжения, канализации и трубопроводов, так и в сфере водопонижения грунтовых вод и осушения котлованов при строительстве зданий и иных сооружений.
                 </p>
@@ -67,6 +68,7 @@
         <section class="equipment">
             <div class="equipment__wrapper">
                 <h2 class="equipment__title">Наше оборудование</h2>
+                <span class="under-line"></span>
                 <div class="equipment__list-button">
                     <button class="equipment__list-button--BA100KD193">BA100K D193</button>
                     <button class="equipment__list-button--BA150ED285">BA150E D285</button>
@@ -87,10 +89,12 @@
         <section class="advantages">
             <div class="advantages__wrapper">
                 <h2 class="advantages__title">Наши преимущества</h2>
+                <span class="under-line"></span>
                 <ol class="advantages__list">
                     <li class="advantages__list-1">
                         <img src="#" alt="Иконка грузовика">
                         <h3>Работаем по всей России</h3>
+                        <span class="under-line__o"></span>
                         <p>
                             Мы готовы произвести работы в любой точке России в максимально сжатые сроки. Мы ценим время заказчика и организуем доставку на объект самостоятельно вне зависимости от количества оборудования.
                         </p>
@@ -98,6 +102,7 @@
                     <li class="advantages__list-2">
                         <img src="#" alt="Иконка сертификата">
                         <h3>Лучшее в классе оборудование</h3>
+                        <span class="under-line__o"></span>
                         <p>
                             Мы используем только насосы BBA pumps при проведении работ. Все наши установки выпущены не позже 2017 года, в идеальном техническом состоянии.
                         </p>
@@ -105,6 +110,7 @@
                     <li class="advantages__list-3">
                         <img src="#" alt="Иконка консультации">
                         <h3>Бесплатный выезд и консультация</h3>
+                        <span class="under-line__o"></span>
                         <p>
                             Бесплатный выезд и консультации в любой точке России, постоянная поддержка и полное сопровождение работ на каждом этапе оказываемых услуг.
                         </p>
@@ -115,6 +121,7 @@
         <section class="customers">
             <div class="customers__wrapper">
                 <h2 class='customers__title'>Заказчики</h2>
+                <span class="under-line"></span>
                 <ul class="customers__list">
                     <li class="customers__list-1">
                         <img src="#" alt="AARSLEFF"><span class="visually-hidden">AARSLEFF</span>
@@ -134,6 +141,7 @@
         <section class="consultation">
             <div class="consultaion__wrapper">
                 <h2 class="consultation__title">Закажите консультацию, расчет стоимости работ или выезд специалиста на объект</h2>
+                <span class="under-line"></span>
                 <form action="Консультации_1">
                     <label for="name">
                         Ваше имя <br>
@@ -156,8 +164,9 @@
         </section>
         <section class="objects">
             <div class="objects__wrapper">
-                <h2>Наши объекты</h2>
-                <img src="#" alt="Города">
+                <h2 class='objects__title'>Наши объекты</h2>
+                <span class="under-line"></span>
+                <img src="#" alt="Города" class="objects__img">
                 <ul class="objects__list">
                     <li class="objects__list--EKB">Екатеринбург</li>
                     <li class="objects__list--KAZ">Казань</li>
@@ -168,9 +177,10 @@
                 </ul>
             </div>
         </section>
-        <div class="contact-footer">
+        <section class="contact-footer">
             <div class="contact-footer__wrapper">
-                <h2>Контакты</h2>
+                <h2 class="contact-footer__title">Контакты</h2>
+                <span class="under-line"></span>
                 <div class="contact-footer__orange">
                     <div class="contact-footer__orange--contacts">
                         <img src="#" alt="Иконка контактов 2" class="contact__img-2">
@@ -187,11 +197,11 @@
                     </div>
                 </div>
                 <div class="contact-footer__grey">
-                    <p>
+                    <p class="contact-footer__grey--p">
                         Наши менеджеры обработают вашу заявку и сразу же свяжутся с вами в рабочее время 9:00 — 18:00 МСК.
                     </p>
                 </div>
-                <p>Свяжитесь с нами удобным вам способом 
+                <p class="connect">Свяжитесь с нами удобным вам способом 
                     или оставьте заявку и наши специалисты позвонят вам
                 </p>
                 <form action="Консультации_2">
@@ -216,16 +226,16 @@
                         Комментарий <br>
                         <input type="text" id="comm">
                     </label>
-                    <button class="send">Отправить</button>
+                    <button class="send-left">Отправить</button>
                 </form>
             </div>
-        </div>
+        </section>
     </main>
     <footer>
-        <p>
+        <p class="date">
             2015 - 2023 г.
         </p>
-        <img src="#" alt="Логотип компании 2"><span class="visually-hidden">САХАРА ГРУП</span>
+        <img src="#" alt="Логотип компании 2" class="footer-logo"><span class="visually-hidden">САХАРА ГРУП</span>
     </footer>
 </body>
 </html>
