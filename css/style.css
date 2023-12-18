@@ -227,12 +227,12 @@ label {
     padding-bottom: 5%;
 }
 .home {
-    background-color: #B27C4B;
     padding-bottom: 5%;
     display: flex;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+    background-image: url(/img/b-1.png);
 }
 .advantages__title {
     padding-top: 5%;
