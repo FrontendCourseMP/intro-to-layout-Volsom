@@ -657,7 +657,7 @@ footer {
     margin: 0;
     padding: 6%;
     color: var(--main-color);
-    margin-right: 90px;
+    margin-right: 30%;
     margin-left: 6%;
     padding-left: 0;
     padding-right: 0;
@@ -670,6 +670,7 @@ footer {
     width: auto;
     height: auto;
     object-fit: fill;
+    margin-left: 10%;
 }
 form {
     box-sizing: content-box;
