@@ -717,3 +717,8 @@ label {
         width: 392px;
     }
 }
+@media (not (screen)) {
+    footer {
+        width: 100%;
+    }
+}
