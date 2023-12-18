@@ -318,7 +318,7 @@ section {
     margin-right: 5%;
     width: 32px;
     height: 32px;
-    background-image: url(img/Menu.svg);
+    background-image: url(/img/Menu.svg);
     background-color: var(--main-color);
 }
 .header-logo {
