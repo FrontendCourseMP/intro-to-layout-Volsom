@@ -712,12 +712,12 @@ label {
     width: 343px;
     display: block;
 }
-@media screen {
+@media (max-width: 392px) {
     footer {
         width: 392px;
     }
 }
-@media (not (screen)) {
+@media (min-width:) {
     footer {
         width: 100%;
     }
