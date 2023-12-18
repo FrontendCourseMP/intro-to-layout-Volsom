@@ -712,3 +712,8 @@ label {
     width: 343px;
     display: block;
 }
+@media screen {
+    footer {
+        width: 392px;
+    }
+}
