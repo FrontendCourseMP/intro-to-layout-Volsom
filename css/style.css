@@ -353,6 +353,9 @@ section {
 .about__wrapper {
     padding-top: 5%;
     padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .about-title {
     text-align: center;
