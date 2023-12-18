@@ -371,7 +371,7 @@ section {
     height: 107px;
     margin-top: 5%;
     margin-left: 25%;
-    margin-right: 30%;
+    margin-right: 29%;
     margin-bottom: 5%;
 }
 .about__stat-1 {
@@ -380,7 +380,7 @@ section {
     height: 38px;
     width: 200px;
     margin-left: 25%;
-    margin-right: 25%;
+    margin-right: 24%;
 }
 .about__about-stat-2 {
     height: 200px;
@@ -393,7 +393,7 @@ section {
     height: 107px;
     margin-top: 5%;
     margin-left: 25%;
-    margin-right: 30%;
+    margin-right: 29%;
     margin-bottom: 5%;
 }
 .about__stat-2 {
@@ -402,7 +402,7 @@ section {
     height: 38px;
     width: 200px;
     margin-left: 25%;
-    margin-right: 25%;
+    margin-right: 24%;
 }
 .about__about-stat-3 {
     height: 200px;
@@ -415,7 +415,7 @@ section {
     height: 107px;
     margin-top: 5%;
     margin-left: 25%;
-    margin-right: 30%;
+    margin-right: 29%;
     margin-bottom: 5%;
 }
 .about__stat-3 {
@@ -424,7 +424,7 @@ section {
     height: 38px;
     width: 200px;
     margin-left: 25%;
-    margin-right: 25%;
+    margin-right: 24%;
 }
 .about-img {
     display: flex;
@@ -466,7 +466,7 @@ img {
 .equipment__list-button--BA180ED328 {
     font-size: 1.6rem;
     padding-left: 1%;
-    width: 138px;
+    width: 118px;
     text-wrap: nowrap;
 }
 .equipment__list-button--BA300ED328 {
@@ -594,7 +594,7 @@ form {
     margin-top: 5%;
     margin-bottom: 5%;
     margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 3%;
 }
 .contact__text-wrapper {
     width: 272px;
