@@ -233,6 +233,9 @@ label {
     flex-direction: row;
     flex-wrap: wrap;
     background-image: url(/img/b-1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .advantages__title {
     padding-top: 5%;
