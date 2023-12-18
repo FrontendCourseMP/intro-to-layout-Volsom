@@ -313,7 +313,6 @@ section {
     height: 32px;
 }
 .header-logo {
-    box-sizing: content-box;
     width: 117px;
     height: 46px;
     margin-top: 5%;
