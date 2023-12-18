@@ -235,7 +235,7 @@ label {
     background-image: url(/img/b-1.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: auto 100%;
 }
 .advantages__title {
     padding-top: 5%;
