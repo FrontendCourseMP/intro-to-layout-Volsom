@@ -432,7 +432,8 @@ section {
     width: 360px;
     height: 242px;
     margin-top: 5%;
-    margin-left: 15%;
+    margin-left: 25%;
+    margin-right: 5%;
     margin-bottom: 5%;
     object-fit: contain;
     object-position: left;
@@ -648,6 +649,7 @@ footer {
     display: flex;
     align-items: center;
     width: 100%;
+    justify-content: space-between;
 }
 .date {
     box-sizing: border-box;
@@ -705,5 +707,6 @@ form {
     align-items: center;
 }
 label {
-    width: 308px;
+    width: 343px;
+    display: block;
 }
