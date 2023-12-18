@@ -25,7 +25,7 @@ ol {
 .advantages__list-1 {
     list-style-image:url();
     padding: 5% 5% 5% 5%;
-    /* background-color: var(--main-color); */
+    background-color: var(--main-color);
     max-width: 260px;
     width: 260px;
     border-radius: 4px;
@@ -37,7 +37,7 @@ ol {
 .advantages__list-2 {
     list-style-image:url();
     padding: 5% 5% 5% 5%;
-    /* background-color: var(--main-color); */
+    background-color: var(--main-color);
     max-width: 260px;
     width: 260px;
     border-radius: 4px;
@@ -48,7 +48,7 @@ ol {
 .advantages__list-3 {
     list-style-image:url();
     padding: 5% 5% 5% 5%;
-    /* background-color: var(--main-color); */
+    background-color: var(--main-color);
     max-width: 260px;
     width: 260px;
     border-radius: 4px;
@@ -65,14 +65,11 @@ ol {
     --grey-soft: #EFEFEF;
     --grey-hard: #777777;
     font-family: Roboto;
-    background-image: url(/img/Sahara-landing.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
 }
 /* font-style__weight */
 /* Regular 400, Medium 500, Bold 700, Black 900 */
 html {
-    /* background-color: var(--main-color); */
+    background-color: var(--main-color);
 }
 a {
     text-decoration: none;
@@ -189,7 +186,7 @@ label {
     color: var(--orange);
 }
 .about,.equipment__list-button, .equipment__list-button--BA100KD193, .equipment__list-button--BA150ED285, .equipment__list-button--BA180ED328, .equipment__list-button--BA300ED328, .equipment__list-button--PT150D155  {
-    /* background-color: var(--grey-soft); */
+    background-color: var(--grey-soft);
     color: var(--blue);
     border: none;
 }
@@ -224,10 +221,10 @@ label {
 }
 .contact-footer, .consultation, .advantages__title {
     color: var(--main-color);
-    /* background-color: #0F2D49; */
+    background-color: #0F2D49;
 }
 .advantages {
-    /* background-color: #0F2D49; */
+    background-color: #0F2D49;
     padding-bottom: 5%;
 }
 .home {
@@ -236,7 +233,7 @@ label {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    /* background-color: #A56B33; */
+    background-color: #A56B33;
 }
 .advantages__title {
     padding-top: 5%;
@@ -326,7 +323,7 @@ section {
     width: 32px;
     height: 32px;
     background-image: url(/img/Menu.svg);
-    /* background-color: var(--main-color); */
+    background-color: var(--main-color);
 }
 .header-logo {
     box-sizing: border-box;
@@ -652,7 +649,7 @@ input {
 }
 footer {
     box-sizing: content-box;
-    /* background-color: var(--blue); */
+    background-color: var(--blue);
     display: flex;
     align-items: center;
     width: 100%;
@@ -661,7 +658,7 @@ footer {
 .date {
     box-sizing: border-box;
     display: flex;
-    /* background-color: var(--blue); */
+    background-color: var(--blue);
     margin: 0;
     padding: 6%;
     color: var(--main-color);
@@ -684,7 +681,7 @@ form {
     margin: 0;
 }
 .contact-footer {
-    /* background-color: var(--blue); */
+    background-color: var(--blue);
 }
 .objects__wrapper {
     display: flex;
