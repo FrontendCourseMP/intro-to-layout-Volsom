@@ -65,6 +65,7 @@ ol {
     --grey-soft: #EFEFEF;
     --grey-hard: #777777;
     font-family: Roboto;
+    background-image: url(/img/Sahara-landing.png);
 }
 /* font-style__weight */
 /* Regular 400, Medium 500, Bold 700, Black 900 */
