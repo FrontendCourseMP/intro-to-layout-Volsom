@@ -6,11 +6,13 @@
 body {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 main {
     box-sizing: content-box;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 ul {
     list-style-type: none;
@@ -189,12 +191,9 @@ label {
 }
 .equipment__list-button {
     height: 51px;
-    margin-left: -15%;
     margin-bottom: 10%;
     margin-top: 10%;
     display: flex;
-    padding-left: 15%;
-    padding-right: 15%;
     width: 392px;
 }
 .contact-footer__grey {
@@ -241,16 +240,11 @@ label {
 .equipment__title {
     text-align: center;
 }
-.equipment {
-    margin-left: 10%;
-    margin-right: 10%;
-    max-width: 100%;
-}
 header {
     display: flex;
     justify-content: space-between;
     box-sizing: content-box;
-    max-width: 100%;
+    width: 392px;
 }
 .contact-title-1 {
     font-size: 1.6rem;
@@ -274,6 +268,10 @@ header {
 }
 section {
     box-sizing: border-box;
+    width: 392px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .home-img {
     display: flex;
@@ -451,6 +449,7 @@ img {
     text-wrap: nowrap;
 }
 .equipment__list-button--PT150D155 {
+    display: none;
     font-size: 1.6rem;
     padding-left: 5%;
     padding-right: 5%;
@@ -466,12 +465,12 @@ img {
 }
 .equipment__list-button--BA180ED328 {
     font-size: 1.6rem;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 1%;
     width: 138px;
     text-wrap: nowrap;
 }
 .equipment__list-button--BA300ED328 {
+    display: none;
     font-size: 1.6rem;
     padding-left: 5%;
     padding-right: 5%;
@@ -648,6 +647,7 @@ footer {
     background-color: var(--blue);
     display: flex;
     align-items: center;
+    width: 392px;
 }
 .date {
     box-sizing: border-box;
