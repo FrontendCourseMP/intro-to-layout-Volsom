@@ -648,8 +648,7 @@ footer {
     background-color: var(--blue);
     display: flex;
     align-items: center;
-    width: 115%;
-    justify-content: space-between;
+    width: 100%;
 }
 .date {
     box-sizing: border-box;
@@ -659,16 +658,18 @@ footer {
     padding: 6%;
     color: var(--main-color);
     margin-right: 90px;
-    margin-left: 45px;
+    margin-left: 6%;
     padding-left: 0;
     padding-right: 0;
+    width: auto;
+    height: auto;
 }
 .footer-logo {
     box-sizing: border-box;
-    display:flex ;
-    width: 101px;
-    height: 28px;
-    margin: 6%;
+    display: flex ;
+    width: auto;
+    height: auto;
+    object-fit: fill;
 }
 form {
     box-sizing: content-box;
