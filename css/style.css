@@ -675,3 +675,8 @@ form {
 .contact-footer {
     background-color: var(--blue);
 }
+.objects__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
