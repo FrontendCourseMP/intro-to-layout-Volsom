@@ -206,6 +206,8 @@ label {
     margin-top: 10%;
     display: flex;
     width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 .contact-footer__grey {
     background-color: var(--grey-hard);
