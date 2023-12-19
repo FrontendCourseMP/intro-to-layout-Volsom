@@ -464,7 +464,6 @@ img {
     padding-left: 5%;
     padding-right: 5%;
     width: 138px;
-    text-wrap: nowrap;
 }
 .equipment__list-button--PT150D155 {
     display: none;
@@ -472,20 +471,17 @@ img {
     padding-left: 5%;
     padding-right: 5%;
     width: 138px;
-    text-wrap: nowrap;
 }
 .equipment__list-button--BA150ED285 {
     font-size: 1.6rem;
     padding-left: 5%;
     padding-right: 5%;
     width: 138px;
-    text-wrap: nowrap;
 }
 .equipment__list-button--BA180ED328 {
     font-size: 1.6rem;
     padding-left: 1%;
     width: 118px;
-    text-wrap: nowrap;
 }
 .equipment__list-button--BA300ED328 {
     display: none;
@@ -493,7 +489,6 @@ img {
     padding-left: 5%;
     padding-right: 5%;
     width: 138px;
-    text-wrap: nowrap;
 }
 .advantages__wrapper {
     box-sizing: content-box;
