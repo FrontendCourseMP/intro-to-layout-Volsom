@@ -461,27 +461,25 @@ img {
 }
 .equipment__list-button--BA100KD193 {
     font-size: 1.6rem;
-    width: 186px;
+    width: auto;
 }
 .equipment__list-button--PT150D155 {
     display: none;
     font-size: 1.6rem;
-    width: 186px;
+    width: auto;
 }
 .equipment__list-button--BA150ED285 {
     font-size: 1.6rem;
-    width: 186px;
+    width: auto;
 }
 .equipment__list-button--BA180ED328 {
     font-size: 1.6rem;
-    width: 186px;
+    width: auto;
 }
 .equipment__list-button--BA300ED328 {
     display: none;
     font-size: 1.6rem;
-    padding-left: 5%;
-    padding-right: 5%;
-    width: 186px;
+    width: auto;
 }
 .advantages__wrapper {
     box-sizing: content-box;
