@@ -142,6 +142,9 @@ label {
     margin-left: 5%;
     margin-right: 5%;
 }
+.contact__link-2{
+    color: var(--main-color);
+}
 .contact__img-2 {
     box-sizing: border-box;
     display: flex;
