@@ -648,7 +648,16 @@ input {
     margin-left: 5%;
     margin-right: 5%;
 }
-footer {
+.footer__wrapper {
+    box-sizing: content-box;
+    background-color: var(--blue);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.footer__wrapper--in {
     box-sizing: content-box;
     background-color: var(--blue);
     display: flex;
@@ -715,8 +724,18 @@ label {
     width: 343px;
     display: block;
 }
+.under-line__grey {
+    box-sizing: border-box;
+    display: block;
+    width: 90%;
+    height: 1px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: var(--main-color);
+    margin-bottom: 2%;
+}
 @media (min-width: 392px) {
-    footer {
+    .footer__wrapper {
         width: 100%;
     }
 }
