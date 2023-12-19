@@ -246,7 +246,7 @@ label {
     padding-bottom: 5%;
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     background-color: #A56B33;
 }
