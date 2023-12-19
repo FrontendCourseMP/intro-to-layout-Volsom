@@ -1,3 +1,6 @@
+div {
+    box-sizing: border-box;
+}
 .visually-hidden {
     visibility: hidden;
     width: 0px;
@@ -72,37 +75,44 @@ html {
     background-color: var(--main-color);
 }
 a {
+    box-sizing: border-box;
     text-decoration: none;
     font-size: 1.6rem;
     color: var(--blue);
 }
 h1 {
+    box-sizing: border-box;
     display: flex;
     text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
     font-size: 3.2rem;
     font-weight: 700;
     color: var(--main-color);
     justify-content: center;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-right: 5%;
 }
 h2 {
+    box-sizing: border-box;
     font-size: 3.6rem;
     font-weight: 700;
 }
 h3 {
+    box-sizing: border-box;
     font-size: 2.4rem;
     font-weight: 700;
 }
 h4 {
+    box-sizing: border-box;
     font-size: 1.6rem;
     font-weight: 900;
 }
 p {
+    box-sizing: border-box;
     font-size: 1.6rem;
     font-weight: 400;
 }
 label {
+    box-sizing: border-box;
     font-size: 1.4rem;
     font-weight: 400;
 }
@@ -248,6 +258,7 @@ header {
     width: 100%;
 }
 .contact-title-1 {
+    box-sizing: border-box;
     font-size: 1.6rem;
     font-weight: 900;
 }
@@ -287,7 +298,7 @@ section {
     box-sizing: border-box;
 }
 .send {
-    box-sizing: content-box;
+    box-sizing: border-box;
     display: flex;
     padding-left: 40px;
     padding-right: 40px;
@@ -317,6 +328,7 @@ section {
     font-size: 1.6rem;
 }
 .header__menu {
+    box-sizing: border-box;
     margin-top: 5%;
     margin-bottom: 5%;
     margin-right: 5%;
@@ -343,6 +355,7 @@ section {
     box-sizing: content-box;
 }
 .contacts__wrapper {
+    box-sizing: border-box;
     margin-top: 5%;
 }
 .about {
@@ -490,6 +503,7 @@ img {
     max-width: 100%;
 }
 .contacts__contact--contact {
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     max-width: 364px;
@@ -602,6 +616,7 @@ form {
     margin-right: 3%;
 }
 .contact__text-wrapper {
+    box-sizing: border-box;
     width: 272px;
 }
 input {
