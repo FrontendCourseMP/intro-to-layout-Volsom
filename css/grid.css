@@ -1,0 +1,118 @@
+div {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main {
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+:root {
+    font-size: 62.5%;
+    --main-color: #FFF;
+    --blue: #1A4D70;
+    --grey-medimum: #D8D8D8;
+    --orange: #F9572B;
+    --grey-soft: #EFEFEF;
+    --grey-hard: #777777;
+    font-family: Roboto;
+}
+/* font-style__weight */
+/* Regular 400, Medium 500, Bold 700, Black 900 */
+html {
+    background-color: var(--main-color);
+}
+a {
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: var(--blue);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: content-box;
+    width: 100%;
+}
+.header-logo {
+    box-sizing: border-box;
+    width: 117px;
+    height: 46px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+.header-img {
+    width: 117px;
+    height: 46px;
+}
+.header__menu {
+    box-sizing: border-box;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    width: 32px;
+    height: 32px;
+    background-image: url(/img/Menu.svg);
+    background-color: var(--main-color);
+    background-color: var(--orange);
+    color: var(--main-color);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+div {
+    box-sizing: border-box;
+    width: 100%;
+}
+.footer__wrapper {
+    box-sizing: content-box;
+    background-color: var(--blue);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.footer__wrapper--in {
+    box-sizing: content-box;
+    background-color: var(--blue);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.date {
+    box-sizing: border-box;
+    display: flex;
+    background-color: var(--blue);
+    margin: 0;
+    padding: 6%;
+    color: var(--main-color);
+    margin-left: 6%;
+    padding-left: 0;
+    padding-right: 0;
+    width: auto;
+    height: auto;
+}
+.footer-logo {
+    box-sizing: border-box;
+    display: flex ;
+    width: auto;
+    height: auto;
+    object-fit: fill;
+    margin-right: 6%;
+}
+section {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
