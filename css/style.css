@@ -747,3 +747,6 @@ label {
         width: 100%;
     }
 }
+.grid {
+    color: var(--main-color);
+}
