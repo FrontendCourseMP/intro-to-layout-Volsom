@@ -656,6 +656,9 @@ input {
     margin-left: 5%;
     margin-right: 5%;
 }
+.footer {
+    bottom: 0;
+}
 .footer__wrapper {
     box-sizing: content-box;
     background-color: var(--blue);
