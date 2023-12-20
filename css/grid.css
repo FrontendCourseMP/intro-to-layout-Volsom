@@ -69,6 +69,10 @@ div {
     box-sizing: border-box;
     width: 100%;
 }
+.footer {
+    position: absolute;
+    bottom: 0;
+}
 .footer__wrapper {
     box-sizing: content-box;
     background-color: var(--blue);
