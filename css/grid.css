@@ -209,12 +209,13 @@ p {
 }
 .dashboard {
     display: grid;
-    width: 700px;
+    width: 800px;
     height: 300px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 2px;
     margin: 10%;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 }
 .d-1 {
     grid-column: 1 / 2;
@@ -226,7 +227,7 @@ p {
     align-items: center;
 }
 .d-2 {
-    grid-column: 2 / 8;
+    grid-column: 2 / 9;
     grid-row: 1 / 2;
     background-color: aqua;
     border: 1px solid;
@@ -244,7 +245,7 @@ p {
     border: 1px solid;
 }
 .d-5 {
-    grid-column: 6 / 8;
+    grid-column: 6 / 9;
     grid-row: 2 / 3;
     background-color: aqua;
     border: 1px solid;
@@ -256,7 +257,7 @@ p {
     border: 1px solid;
 }
 .d-7 {
-    grid-column: 5 / 8;
+    grid-column: 5 / 9;
     grid-row: 3 / 4;
     background-color: aqua;
     border: 1px solid;
