@@ -298,11 +298,11 @@ p {
 .parent {
     display: grid;
     grid-gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 150px));
+    grid-template-columns: repeat(auto-fit, minmax(128px, 128px));
   }
   .box {
-    width: 150px;
-    height: 150px;
+    width: 128px;
+    height: 128px;
     font-size: 2rem;
     padding: 1rem;
     display: grid;
