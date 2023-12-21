@@ -789,3 +789,6 @@ label {
     box-sizing: border-box;
     right: -50%;
 }
+.h-m-figure {
+    width: 100%;
+}
