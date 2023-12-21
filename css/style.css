@@ -783,6 +783,7 @@ label {
     align-items: center;
 }
 .h-m-f {
+    width: 100%;
     position: absolute;
     box-sizing: border-box;
     right: -50%;
