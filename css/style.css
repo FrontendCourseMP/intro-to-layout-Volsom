@@ -355,6 +355,7 @@ section {
     background-color: var(--main-color);
 }
 .header-logo {
+    z-index: 1;
     box-sizing: border-box;
     width: 117px;
     height: 46px;
