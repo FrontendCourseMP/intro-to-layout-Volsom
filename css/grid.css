@@ -152,6 +152,7 @@ p {
     font-weight: 400;
 }
 .container {
+    border: black solid;
     border-radius: 5%;
     background-color: black;
     display: grid;
