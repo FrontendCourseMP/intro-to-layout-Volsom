@@ -4,7 +4,8 @@
     font-weight: 400;
 }
 .st {
-    font-family: 'Orbitron' 3.2rem;
+    font-family: Orbitron;
+    font-size: 8rem;
 }
 div {
     box-sizing: border-box;
