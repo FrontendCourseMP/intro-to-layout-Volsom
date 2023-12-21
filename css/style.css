@@ -269,10 +269,10 @@ label {
 }
 .advantages {
     background-image: url(/img/adv.png);
-    background-color: #0F2D49;
+    background-color: var(--blue)
     padding-bottom: 5%;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: auto;
 }
 .home {
     margin-top: 10%;
@@ -634,10 +634,10 @@ img {
     margin-bottom: 5%;
 }
 .consultation {
-    background: none;
+    background-color: var(--blue);
     background-image: url(/img/cons.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: auto;
     padding: 1%;
 }
 
@@ -746,7 +746,7 @@ input {
 .contact-footer {
     background-image: url(/img/contact.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: auto;
     background-color: var(--blue);
 }
 .objects__wrapper {
