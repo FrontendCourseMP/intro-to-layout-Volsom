@@ -781,5 +781,6 @@ label {
     align-items: center;
 }
 .h-m-f {
-    
+    position: fixed;
+    box-sizing: border-box;
 }
