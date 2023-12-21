@@ -269,10 +269,10 @@ label {
 }
 .advantages {
     background-image: url(/img/adv.png);
-    background-color: var(--blue)
+    background-color: var(--blue);
     padding-bottom: 5%;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: contain;
 }
 .home {
     margin-top: 10%;
@@ -282,6 +282,8 @@ label {
     flex-direction: column;
     flex-wrap: wrap;
     background-image: url(/img/home.png);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 .equipment__title {
     text-align: center;
@@ -637,7 +639,7 @@ img {
     background-color: var(--blue);
     background-image: url(/img/cons.png);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: contain;
     padding: 1%;
 }
 
@@ -746,7 +748,7 @@ input {
 .contact-footer {
     background-image: url(/img/contact.png);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: contain;
     background-color: var(--blue);
 }
 .objects__wrapper {
