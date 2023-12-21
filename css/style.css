@@ -271,6 +271,8 @@ label {
     background-image: url(/img/adv.png);
     background-color: #0F2D49;
     padding-bottom: 5%;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 .home {
     margin-top: 10%;
@@ -534,6 +536,7 @@ img {
     box-sizing: content-box;
 }
 .advantages__title {
+    background: none;
     text-align: center;
     max-width: 100%;
     margin-left: 5%;
@@ -631,6 +634,10 @@ img {
     margin-bottom: 5%;
 }
 .consultation {
+    background: none;
+    background-image: url(/img/cons.png);
+    background-repeat: no-repeat;
+    background-size: contain;
     padding: 1%;
 }
 
@@ -737,6 +744,9 @@ input {
     margin-right: 6%;
 }
 .contact-footer {
+    background-image: url(/img/contact.png);
+    background-repeat: no-repeat;
+    background-size: contain;
     background-color: var(--blue);
 }
 .objects__wrapper {
