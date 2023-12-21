@@ -256,12 +256,13 @@ label {
     padding-bottom: 5%;
 }
 .home {
+    margin-top: 10%;
     padding-bottom: 5%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
-    background-color: #A56B33;
+    background-image: url(/img/home.png);
 }
 .equipment__title {
     text-align: center;
@@ -343,6 +344,7 @@ section {
     font-size: 1.6rem;
 }
 .header__menu {
+    z-index: 1;
     box-sizing: border-box;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -781,6 +783,7 @@ label {
     align-items: center;
 }
 .h-m-f {
-    position: fixed;
+    position: absolute;
     box-sizing: border-box;
+    right: -50%;
 }
