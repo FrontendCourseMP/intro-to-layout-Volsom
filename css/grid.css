@@ -293,3 +293,18 @@ p {
     width: 50%;
     height: 50%;
 }
+.parent {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+  .box {
+    font-size: 2rem;
+    padding: 1rem;
+    display: grid;
+    place-items: center;
+    border-radius: 1rem;
+    border-style: dashed;
+    background-image: url(/img/Rectangle.png);
+    border: 1px solid black;
+  }
