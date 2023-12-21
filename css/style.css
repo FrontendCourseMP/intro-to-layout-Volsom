@@ -34,7 +34,6 @@ ol {
     margin: 0;
 }
 .advantages__list-1 {
-    list-style-image:url();
     padding: 5% 5% 5% 5%;
     background-color: var(--main-color);
     max-width: 260px;
@@ -43,10 +42,11 @@ ol {
     text-align: left;
     margin: 5% 5% 5% 5%;
     height: 418px;
-    
+    position: relative;
+    top: 24px;
+    bottom: 24px;
 }
 .advantages__list-2 {
-    list-style-image:url();
     padding: 5% 5% 5% 5%;
     background-color: var(--main-color);
     max-width: 260px;
@@ -55,9 +55,11 @@ ol {
     text-align: left;
     margin: 5% 5% 5% 5%;
     height: 418px;
+    position: relative;
+    top: 24px;
+    bottom: 24px;
 }
 .advantages__list-3 {
-    list-style-image:url();
     padding: 5% 5% 5% 5%;
     background-color: var(--main-color);
     max-width: 260px;
@@ -66,6 +68,9 @@ ol {
     text-align: left;
     margin: 5% 5% 5% 5%;
     height: 418px;
+    position: relative;
+    top: 24px;
+    bottom: 24px;
 }
 :root {
     font-size: 62.5%;
@@ -367,6 +372,7 @@ section {
 .contacts__wrapper {
     box-sizing: border-box;
     margin-top: 5%;
+    display: contents;
 }
 .about {
     display: flex;
@@ -390,6 +396,10 @@ section {
 .about__about-stat-1 {
     height: 200px;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .about__stat-img-1 {
     display: flex;
@@ -412,6 +422,10 @@ section {
 .about__about-stat-2 {
     height: 200px;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .about__stat-img-2 {
     display: flex;
@@ -434,6 +448,10 @@ section {
 .about__about-stat-3 {
     height: 200px;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .about__stat-img-3 {
     display: flex;
@@ -752,4 +770,10 @@ label {
 }
 .grid {
     color: var(--main-color);
+}
+.advantages__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
