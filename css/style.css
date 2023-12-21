@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Orbitron';
+    src: url(/fonts/Orbitron-VariableFont_wght.ttf) format('ttf');
+    font-weight: 400;
+}
+.st {
+    font-family: Oritron 3.2rem;
+}
 div {
     box-sizing: border-box;
     width: 100%;
