@@ -7,6 +7,8 @@
     font-family: Orbitron;
     font-size: 8rem;
     margin: 0;
+    margin-left: 5%;
+    z-index: 1;
 }
 div {
     box-sizing: border-box;
@@ -419,8 +421,8 @@ section {
     width: 180px;
     height: 107px;
     margin-left: 10%;
-    margin-right: 29%;
-    margin-bottom: 15%;
+    margin-right: 20%;
+    margin-bottom: 10%;
     position: absolute;
 }
 .about__stat-1 {
@@ -445,9 +447,8 @@ section {
     box-sizing: border-box;
     width: 180px;
     height: 107px;
-    margin-left: 10%;
-    margin-right: 29%;
-    margin-bottom: 15%;
+    margin-right: 20%;
+    margin-bottom: 10%;
     position: absolute;
 }
 .about__stat-2 {
@@ -472,9 +473,8 @@ section {
     box-sizing: border-box;
     width: 180px;
     height: 107px;
-    margin-left: 10%;
-    margin-right: 29%;
-    margin-bottom: 15%;
+    margin-right: 20%;
+    margin-bottom: 10%;
     position: absolute;
 }
 .about__stat-3 {
