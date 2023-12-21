@@ -418,10 +418,9 @@ section {
     box-sizing: border-box;
     width: 180px;
     height: 107px;
-    margin-top: 5%;
-    margin-left: 20%;
+    margin-left: 10%;
     margin-right: 29%;
-    margin-bottom: 5%;
+    margin-bottom: 15%;
     position: absolute;
 }
 .about__stat-1 {
@@ -446,10 +445,9 @@ section {
     box-sizing: border-box;
     width: 180px;
     height: 107px;
-    margin-top: 5%;
-    margin-left: 20%;
+    margin-left: 10%;
     margin-right: 29%;
-    margin-bottom: 5%;
+    margin-bottom: 15%;
     position: absolute;
 }
 .about__stat-2 {
@@ -474,10 +472,9 @@ section {
     box-sizing: border-box;
     width: 180px;
     height: 107px;
-    margin-top: 5%;
-    margin-left: 20%;
+    margin-left: 10%;
     margin-right: 29%;
-    margin-bottom: 5%;
+    margin-bottom: 15%;
     position: absolute;
 }
 .about__stat-3 {
