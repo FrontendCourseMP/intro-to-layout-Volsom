@@ -10,6 +10,9 @@
     margin-left: 5%;
     z-index: 1;
 }
+.o {
+    margin-right: 30%;
+}
 div {
     box-sizing: border-box;
     width: 100%;
