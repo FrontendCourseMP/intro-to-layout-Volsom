@@ -639,7 +639,7 @@ img {
     background-color: var(--blue);
     background-image: url(/img/cons.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     padding: 1%;
 }
 
