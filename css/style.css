@@ -6,6 +6,7 @@
 .st {
     font-family: Orbitron;
     font-size: 8rem;
+    margin: 0;
 }
 div {
     box-sizing: border-box;
