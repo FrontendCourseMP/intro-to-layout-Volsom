@@ -283,7 +283,7 @@ label {
     flex-wrap: wrap;
     background-image: url(/img/home.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .equipment__title {
     text-align: center;
