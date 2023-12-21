@@ -344,7 +344,6 @@ section {
     font-size: 1.6rem;
 }
 .header__menu {
-    z-index: 1;
     box-sizing: border-box;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -355,7 +354,6 @@ section {
     background-color: var(--main-color);
 }
 .header-logo {
-    z-index: 1;
     box-sizing: border-box;
     width: 117px;
     height: 46px;
@@ -782,13 +780,4 @@ label {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.h-m-f {
-    width: 100%;
-    position: absolute;
-    box-sizing: border-box;
-    right: -50%;
-}
-.h-m-figure {
-    width: 100%;
 }
