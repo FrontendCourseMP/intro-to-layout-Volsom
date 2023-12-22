@@ -1067,9 +1067,12 @@ label {
     }
     .equipment__list-button {
         max-width: 1200px;
+        width: auto;
     }
     .equipment__list-button__wrapper {
-        width: auto;
+        width: 100%;
+        padding-left: 25%;
+        padding-right: 25%;
     }
     .equipment__list-button--BA300ED328 {
         display: inline-block;
@@ -1079,5 +1082,30 @@ label {
     }
     .equipment__list-button--PT150D155 {
         display: inline-block;
+    }
+    .equipment__list-button--BA100KD193 {
+        font-size: 1.6rem;
+        width: 100%;
+        padding: 0;
+    }
+    .equipment__list-button--PT150D155 {
+        font-size: 1.6rem;
+        width: 100%;
+        padding: 0;
+    }
+    .equipment__list-button--BA150ED285 {
+        font-size: 1.6rem;
+        width: 100%;
+        padding: 0;
+    }
+    .equipment__list-button--BA180ED328 {
+        font-size: 1.6rem;
+        width: 100%;
+        padding: 0;
+    }
+    .equipment__list-button--BA300ED328 {
+        font-size: 1.6rem;
+        width: 100%;
+        padding: 0;
     }
 }
