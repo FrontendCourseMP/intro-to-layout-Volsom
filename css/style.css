@@ -923,13 +923,14 @@ label {
         box-sizing: border-box;
         display: grid;
         text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
-        font-size: 2.9rem;
+        font-size: 4.8rem;
         font-weight: 700;
         color: var(--main-color);
         grid-column: 1 / 2;
         grid-row: 1 / 2;
-        width: 300px;
-        margin-left: 30%;
+        width: 512px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .home {
         display: grid;
@@ -943,10 +944,8 @@ label {
     }
     .home-img {
         display: grid;
-        max-width: 300px;
-        width: 317px;
-        height: 219px;
-        max-height: 392px;
+        width: 590px;
+        height: 392px;
         margin-left: 10%;
         margin-right: 10%;
         margin-top: 5%;
