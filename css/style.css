@@ -848,7 +848,7 @@ label {
     width: 32px;
     margin: 40px 24px;
     border: none;
-    padding: 6px;
+    padding: 4px;
     background-color: var(--grey-medimum);
     border-radius: 10px;
 }
