@@ -904,4 +904,12 @@ label {
         font-weight: 900;
         margin-right: 5%;
     }
+    .header__links {
+        display: flex;
+        justify-content: space-between;
+        box-sizing: content-box;
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+    }
 }
