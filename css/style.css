@@ -78,7 +78,7 @@ ol {
     width: 260px;
     border-radius: 4px;
     text-align: left;
-    margin: 5% 5% 5% 5%;
+    margin: 5% 15% 5% 20%;
     height: 418px;
     position: relative;
     top: 24px;
@@ -91,7 +91,7 @@ ol {
     width: 260px;
     border-radius: 4px;
     text-align: left;
-    margin: 5% 5% 5% 5%;
+    margin: 5% 15% 5% 20%;
     height: 418px;
     position: relative;
     top: 24px;
@@ -104,7 +104,7 @@ ol {
     width: 260px;
     border-radius: 4px;
     text-align: left;
-    margin: 5% 5% 5% 5%;
+    margin: 5% 15% 5% 20%;
     height: 418px;
     position: relative;
     top: 24px;
@@ -186,7 +186,7 @@ label {
 .contact-footer__orange {
     box-sizing: border-box;
     background-color: var(--orange);
-    width: 342px;
+    width: 300px;
     height: 317px;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -262,11 +262,12 @@ label {
     width: 100%;
     align-items: center;
     justify-content: center;
+    margin-left: 10px;
 }
 .contact-footer__grey {
     background-color: var(--grey-hard);
     box-sizing: border-box;
-    width: 342px;
+    width: 300px;
     height: 112px;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -308,6 +309,7 @@ label {
 }
 .equipment__title {
     text-align: center;
+    max-width: 320px;
 }
 .equipment__wrapper {
     display: flex;
@@ -649,8 +651,7 @@ img {
 }
 .consultation__title {
     text-align: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin: 5%;
 }
 .consultation {
     background-color: var(--blue);
@@ -748,7 +749,7 @@ input {
     margin: 0;
     padding: 6%;
     color: var(--main-color);
-    margin-left: 6%;
+    margin-left: 10%;
     padding-left: 0;
     padding-right: 0;
     width: auto;
@@ -760,7 +761,7 @@ input {
     width: auto;
     height: auto;
     object-fit: fill;
-    margin-right: 6%;
+    margin-right: 10%;
 }
 .contact-footer {
     background-image: url(/img/contact.png);
@@ -799,6 +800,15 @@ form {
     box-sizing: content-box;
     margin: 0;
 }
+.form__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: content-box;
+    justify-content: center;
+    max-width: 320px;
+    margin: 5%;
+}
 label {
     width: 343px;
     display: block;
@@ -806,7 +816,7 @@ label {
 .under-line__grey {
     box-sizing: border-box;
     display: block;
-    width: 90%;
+    width: 80%;
     height: 1px;
     margin-left: 5%;
     margin-right: 5%;
