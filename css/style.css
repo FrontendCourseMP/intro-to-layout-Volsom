@@ -550,7 +550,7 @@ img {
 .equipment__list-button--BA100KD193 {
     font-size: 1.6rem;
     width: 138px;
-    padding: 16px 18px;
+    padding: 0;
 }
 .equipment__list-button--PT150D155 {
     display: none;
@@ -868,4 +868,7 @@ label {
 }
 .phone {
     margin-bottom: 5%;
+}
+.Bump-3 {
+    width: 300px;
 }
