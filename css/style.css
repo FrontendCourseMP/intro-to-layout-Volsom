@@ -916,4 +916,7 @@ label {
         flex-direction: row;
         align-items: center;
     }
+    .under-line {
+        margin-top: 20px;
+    }
 }
