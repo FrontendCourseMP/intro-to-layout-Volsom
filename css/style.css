@@ -944,12 +944,10 @@ label {
     }
     .home-img {
         display: grid;
-        width: 590px;
-        height: 392px;
-        max-width: 590px;
-        max-height: 392px;
-        margin-left: 10%;
-        margin-right: 10%;
+        width: 450px;
+        height: 352px;
+        max-width: 450px;
+        max-height: 352px;
         margin-top: 5%;
         margin-bottom: 5%;
         box-sizing: border-box;
