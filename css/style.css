@@ -680,10 +680,10 @@ img {
     width: 205px;
 }
 input {
-    width: 300px;
-    max-width: 342px;
+    width: 276px;
     height: 40px;
     margin-bottom: 10%;
+    padding: 0;
 }
 #comm {
     height: 180px;
@@ -717,7 +717,7 @@ input {
     padding-top: 10%;
 }
 .connect {
-    width: 342px;
+    width: 300px;
     height: 57px;
     margin-left: 5%;
     margin-right: 5%;
@@ -806,11 +806,11 @@ form {
     align-items: center;
     box-sizing: content-box;
     justify-content: center;
-    max-width: 320px;
+    max-width: 300px;
     margin: 5%;
 }
 label {
-    width: 343px;
+    width: 280px;
     display: block;
 }
 .under-line__grey {
