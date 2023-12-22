@@ -1067,7 +1067,6 @@ label {
     }
     .equipment__list-button {
         max-width: 1200px;
-        width: auto;
     }
     .equipment__list-button__wrapper {
         width: 100%;
@@ -1085,30 +1084,74 @@ label {
     }
     .equipment__list-button--BA100KD193 {
         font-size: 1.6rem;
-        width: 100%;
+        width: 115%;
         padding: 0;
+        margin-right: 10%;
     }
     .equipment__list-button--PT150D155 {
         font-size: 1.6rem;
-        width: 100%;
+        width: 115%;
         padding: 0;
+        margin-right: 10%;
     }
     .equipment__list-button--BA150ED285 {
         font-size: 1.6rem;
-        width: 100%;
+        width: 115%;
         padding: 0;
+        margin-right: 10%;
     }
     .equipment__list-button--BA180ED328 {
         font-size: 1.6rem;
-        width: 100%;
+        width: 115%;
         padding: 0;
+        margin-right: 10%;
     }
     .equipment__list-button--BA300ED328 {
         font-size: 1.6rem;
-        width: 100%;
+        width: 115%;
         padding: 0;
+        margin-right: 10%;
     }
     .advantages__list {
         flex-direction: row;
+    }
+    .advantages__list-3 {
+        padding: 1%;
+        background-color: var(--main-color);
+        max-width: 260px;
+        width: 260px;
+        border-radius: 4px;
+        text-align: left;
+        margin: 5% 5% 5% 5%;
+        height: 418px;
+        position: relative;
+        top: 24px;
+        bottom: 24px;
+    }
+    .advantages__list-2 {
+        padding: 1%;
+        background-color: var(--main-color);
+        max-width: 260px;
+        width: 260px;
+        border-radius: 4px;
+        text-align: left;
+        margin: 5% 5% 5% 5%;
+        height: 418px;
+        position: relative;
+        top: 24px;
+        bottom: 24px;
+    }
+    .advantages__list-1 {
+        padding: 1%;
+        background-color: var(--main-color);
+        max-width: 260px;
+        width: 260px;
+        border-radius: 4px;
+        text-align: left;
+        margin: 5% 5% 5% 5%;
+        height: 418px;
+        position: relative;
+        top: 24px;
+        bottom: 24px;
     }
 }
