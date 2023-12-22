@@ -1048,4 +1048,10 @@ label {
         margin-left: 0;
         margin-right: 0;
     }
+    .about-img {
+        grid-row: 1 / 4;
+        grid-column: 4 / 7;
+        width: 809px;
+        height: 526px;
+    }
 }
