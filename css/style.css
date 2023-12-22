@@ -946,6 +946,8 @@ label {
         display: grid;
         width: 590px;
         height: 392px;
+        max-width: 590px;
+        max-height: 392px;
         margin-left: 10%;
         margin-right: 10%;
         margin-top: 5%;
@@ -957,5 +959,6 @@ label {
     .send.ho {
         grid-row: 2 / 3;
         grid-column: 1 / 2;
+        display: grid;
     }
 }
