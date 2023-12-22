@@ -975,7 +975,6 @@ label {
         justify-content: center;
         box-sizing: content-box;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
     }
     .about__wrapper {
         padding-top: 5%;
