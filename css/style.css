@@ -1054,4 +1054,7 @@ label {
         width: 440px;
         height: 326px;
     }
+    .about__p {
+        padding-right: 0;
+    }
 }
