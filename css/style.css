@@ -906,7 +906,7 @@ label {
     .hl-6 {
         color: var(--orange);
         font-weight: 900;
-        margin-right: 5%;
+        margin-right: 2%;
     }
     .header__links {
         display: flex;
