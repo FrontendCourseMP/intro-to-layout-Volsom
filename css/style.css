@@ -309,6 +309,12 @@ label {
 .equipment__title {
     text-align: center;
 }
+.equipment__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 header {
     display: flex;
     justify-content: space-between;
