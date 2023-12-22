@@ -118,7 +118,11 @@ ol {
     --orange: #F9572B;
     --grey-soft: #EFEFEF;
     --grey-hard: #777777;
-    font-family: Roboto, Roboto-Regular, Roboto-Medium, Roboto-Bold, Roboto-Black, sans-serif;
+    font-family: Roboto, sans-serif;
+    font-family: Roboto-Regular, sans-serif;
+    font-family: Roboto-Medium, sans-serif;
+    font-family: Roboto-Bold, sans-serif;
+    font-family: Roboto-Black, sans-serif;
 }
 /* font-style__weight */
 /* Regular 400, Medium 500, Bold 700, Black 900 */
