@@ -961,4 +961,13 @@ label {
         grid-column: 1 / 2;
         display: grid;
     }
+    .contacts__wrapper {
+        display: flex;
+    }
+    .contacts__contact--contact {
+        justify-content: end;
+    }
+    .contacts__contact--location {
+        justify-content: start;
+    }
 }
