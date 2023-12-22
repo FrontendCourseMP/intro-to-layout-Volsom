@@ -1061,14 +1061,32 @@ label {
         margin-right: 5%;
         max-width: none;
     }
-    .equipment__list-button--BA300ED328 {
-        display: inline-block;
+    .equipment__list-button {
+        width: 95%;
+    }
+    .equipment__list-button__wrapper {
+        width: 95%;
+    }
+    .equipment__list-button--BA100KD193 {
+        text-wrap: nowrap;
+    }
+    .equipment__list-button--BA150ED285 {
+        text-wrap: nowrap;
+    }
+    .equipment__list-button--BA180ED328 {
+        text-wrap: nowrap;
     }
     .equipment__list-button--BA300ED328 {
         display: inline-block;
+        text-wrap: nowrap;
+    }
+    .equipment__list-button--BA300ED328 {
+        display: inline-block;
+        text-wrap: nowrap;
     }
     .equipment__list-button--PT150D155 {
         display: inline-block;
+        text-wrap: nowrap;
     }
     .advantages__list {
         flex-direction: row;
