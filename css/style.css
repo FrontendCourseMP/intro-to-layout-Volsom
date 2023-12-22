@@ -22,8 +22,8 @@
 }
 @font-face {
     font-family: 'Roboto';
-    src: url(/fonts/Roboto-Black.ttf) format('ttf');
-    font-weight: 900;
+    src: url(/fonts/Roboto-Medium.ttf) format('ttf');
+    font-weight: 500;
 }
 .st {
     font-family: Orbitron;
@@ -326,7 +326,6 @@ header {
 }
 .about__stat-1 {
     font-size: 1.6rem;
-    font-family: Roboto-Black;
     font-weight: 900;
 }
 .about__stat-2 {
