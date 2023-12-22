@@ -990,6 +990,9 @@ label {
     }
     .under-line {
         grid-column: 1 / 3;
-        grid-row: 1 / 2;
+    }
+    .about__p--wrapper {
+        grid-column: 1 / 4;
+        grid-row: 2 / 3;
     }
 }
