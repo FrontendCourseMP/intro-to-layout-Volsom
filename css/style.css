@@ -1108,4 +1108,7 @@ label {
         width: 100%;
         padding: 0;
     }
+    .advantages__list {
+        flex-direction: row;
+    }
 }
