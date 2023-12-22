@@ -6,22 +6,22 @@
     font-weight: 400;
 }
 @font-face {
-    font-family: 'Roboto-Black';
+    font-family: 'Roboto';
     src: url(/fonts/Roboto-Black.ttf) format('ttf');
     font-weight: 900;
 }
 @font-face {
-    font-family: 'Roboto-Bold';
+    font-family: 'Roboto';
     src: url(/fonts/Roboto-Bold.ttf) format('ttf');
     font-weight: 700;
 }
 @font-face {
-    font-family: 'Roboto-Regular';
+    font-family: 'Roboto';
     src: url(/fonts/Roboto-Regular.ttf) format('ttf');
     font-weight: 400;
 }
 @font-face {
-    font-family: 'Roboto-Black';
+    font-family: 'Roboto';
     src: url(/fonts/Roboto-Black.ttf) format('ttf');
     font-weight: 900;
 }
@@ -118,7 +118,7 @@ ol {
     --orange: #F9572B;
     --grey-soft: #EFEFEF;
     --grey-hard: #777777;
-    font-family: Roboto, sans-serif;
+    font-family: Roboto;
 }
 /* font-style__weight */
 /* Regular 400, Medium 500, Bold 700, Black 900 */
@@ -136,7 +136,6 @@ h1 {
     display: flex;
     text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
     font-size: 3.2rem;
-    font-family: Roboto-Bold;
     font-weight: 700;
     color: var(--main-color);
     justify-content: center;
@@ -146,36 +145,30 @@ h1 {
 h2 {
     box-sizing: border-box;
     font-size: 3.6rem;
-    font-family: Roboto-Bold;
     font-weight: 700;
 }
 h3 {
     box-sizing: border-box;
     font-size: 2.4rem;
-    font-family: Roboto-Bold;
     font-weight: 700;
 }
 h4 {
     box-sizing: border-box;
     font-size: 1.6rem;
-    font-family: Roboto-Black;
     font-weight: 900;
 }
 p {
     box-sizing: border-box;
     font-size: 1.6rem;
-    font-family: Roboto-Regular;
     font-weight: 400;
 }
 label {
     box-sizing: border-box;
     font-size: 1.4rem;
-    font-family: Roboto-Regular;
     font-weight: 400;
 }
 .contact-footer__orange--location-p, li, .contact__link-2, .contact__link-1, button {
     font-weight: 500;
-    font-family: Roboto-Medium;
     font-size: 1.6rem;
 }
 .contacts, .about, .equipment, .advantages__list, .customers, .objects, .about__p, .location__p {
@@ -325,12 +318,10 @@ header {
 .contact-title-1 {
     box-sizing: border-box;
     font-size: 1.6rem;
-    font-family: Roboto-Black;
     font-weight: 900;
 }
 .location-title-1 {
     font-size: 1.6rem;
-    font-family: Roboto-Black;
     font-weight: 900;
 }
 .about__stat-1 {
@@ -340,12 +331,10 @@ header {
 }
 .about__stat-2 {
     font-size: 1.6rem;
-    font-family: Roboto-Black;
     font-weight: 900;
 }
 .about__stat-3 {
     font-size: 1.6rem;
-    font-family: Roboto-Black;
     font-weight: 900;
 }
 section {
