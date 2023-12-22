@@ -666,7 +666,7 @@ img {
 }
 .objects__img {
     display: flex;
-    width: 362px;
+    width: 300px;
     height: 187px;
     max-width: 1182px;
     max-height: 610px;
@@ -856,4 +856,7 @@ label {
     padding: 4px;
     background-color: var(--grey-medimum);
     border-radius: 10px;
+}
+.phone {
+    margin-bottom: 5%;
 }
