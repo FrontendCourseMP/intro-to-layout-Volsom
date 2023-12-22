@@ -579,19 +579,13 @@ img {
     box-sizing: border-box;
     width: 58px;
     height: 58px;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 47px 23px;
 }
 .location__img-1 {
     box-sizing: border-box;
     width: 58px;
     height: 58px;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 47px 23px;
 }
 .location__text-wrapper {
     box-sizing: border-box;
