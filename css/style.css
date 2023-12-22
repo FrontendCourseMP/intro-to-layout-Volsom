@@ -140,7 +140,7 @@ h1 {
     color: var(--main-color);
     justify-content: center;
     margin-left: 5%;
-    max-width: 330px;
+    max-width: 320px;
 }
 h2 {
     box-sizing: border-box;
@@ -359,7 +359,7 @@ section {
 }
 .home-img {
     display: flex;
-    max-width: 590px;
+    max-width: 300px;
     width: 317px;
     height: 219px;
     max-height: 392px;
@@ -534,7 +534,7 @@ section {
 .about-img {
     display: flex;
     box-sizing: border-box;
-    width: 360px;
+    width: 300px;
     height: 242px;
     margin-top: 5%;
     margin-left: 5%;
@@ -679,8 +679,6 @@ img {
     display: flex;
     width: 300px;
     height: 187px;
-    max-width: 1182px;
-    max-height: 610px;
     margin-top: 5%;
     margin-bottom: 5%;
     margin-left: 5%;
