@@ -262,7 +262,16 @@ label {
     width: 100%;
     align-items: center;
     justify-content: center;
-    margin-left: 10px;
+}
+.equipment__list-button__wrapper {
+    height: 51px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin-right: 10px;
 }
 .contact-footer__grey {
     background-color: var(--grey-hard);
