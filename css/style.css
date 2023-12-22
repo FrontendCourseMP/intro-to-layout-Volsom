@@ -571,6 +571,7 @@ img {
     justify-content: center;
 }
 .contacts__contact--location {
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
 }
@@ -593,7 +594,8 @@ img {
     margin-right: 5%;
 }
 .location__text-wrapper {
-    
+    box-sizing: border-box;
+    width: 205px;
 }
 .customers__title {
     text-align: center;
@@ -674,7 +676,7 @@ img {
 }
 .contact__text-wrapper {
     box-sizing: border-box;
-    width: 272px;
+    width: 205px;
 }
 input {
     width: 300px;
