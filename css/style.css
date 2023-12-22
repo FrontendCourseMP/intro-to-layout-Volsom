@@ -253,8 +253,6 @@ label {
     background-color: var(--grey-soft);
     color: var(--blue);
     border: none;
-    width: 138px;
-    padding: 0;
 }
 .equipment__list-button {
     height: 51px;
@@ -551,20 +549,30 @@ img {
 }
 .equipment__list-button--BA100KD193 {
     font-size: 1.6rem;
+    width: 138px;
+    padding: 16px 18px;
 }
 .equipment__list-button--PT150D155 {
     display: none;
     font-size: 1.6rem;
+    width: 138px;
+    padding: 0;
 }
 .equipment__list-button--BA150ED285 {
     font-size: 1.6rem;
+    width: 138px;
+    padding: 0;
 }
 .equipment__list-button--BA180ED328 {
     font-size: 1.6rem;
+    width: 138px;
+    padding: 0;
 }
 .equipment__list-button--BA300ED328 {
     display: none;
     font-size: 1.6rem;
+    width: 138px;
+    padding: 0;
 }
 .advantages__wrapper {
     box-sizing: content-box;
