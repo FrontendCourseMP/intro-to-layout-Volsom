@@ -892,6 +892,10 @@ label {
         width: 255px;
         height: 68px;
     }
+    .header-logo {
+        width: 255px;
+        height: 68px;
+    }
     .header__link {
         font-weight: 500;
     }
