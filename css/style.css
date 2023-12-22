@@ -140,7 +140,7 @@ h1 {
     color: var(--main-color);
     justify-content: center;
     margin-left: 5%;
-    margin-right: 5%;
+    max-width: 330px;
 }
 h2 {
     box-sizing: border-box;
@@ -569,16 +569,10 @@ img {
     box-sizing: border-box;
     display: flex;
     justify-content: center;
-    max-width: 364px;
-    width: 364px;
-    margin-right: 5%;
 }
 .contacts__contact--location {
     display: flex;
     justify-content: center;
-    max-width: 364px;
-    width: 364px;
-    margin-right: 5%;
 }
 .contact__img-1 {
     box-sizing: border-box;
@@ -599,7 +593,7 @@ img {
     margin-right: 5%;
 }
 .location__text-wrapper {
-    max-width: 272px;
+    
 }
 .customers__title {
     text-align: center;
