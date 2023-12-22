@@ -875,6 +875,9 @@ label {
     .header__link {
         display: none;
     }
+    .header__links {
+        display: none;
+    }
 }
 @media (min-width: 1024px) {
     header {
@@ -895,6 +898,7 @@ label {
     .header-logo {
         width: 255px;
         height: 68px;
+        margin-right: 8%;
     }
     .header__link {
         font-weight: 500;
