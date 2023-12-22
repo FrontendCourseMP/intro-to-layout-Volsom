@@ -1060,4 +1060,24 @@ label {
         display: flex;
         flex-direction: row;
     }
+    .equipment__title {
+        text-align: center;
+        margin-right: 5%;
+        max-width: none;
+    }
+    .equipment__list-button {
+        max-width: 1200px;
+    }
+    .equipment__list-button__wrapper {
+        width: auto;
+    }
+    .equipment__list-button--BA300ED328 {
+        display: inline-block;
+    }
+    .equipment__list-button--BA300ED328 {
+        display: inline-block;
+    }
+    .equipment__list-button--PT150D155 {
+        display: inline-block;
+    }
 }
