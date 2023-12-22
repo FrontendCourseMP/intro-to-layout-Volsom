@@ -899,4 +899,8 @@ label {
     .header__link {
         font-weight: 500;
     }
+    .hl-6 {
+        color: var(--orange);
+        font-weight: 900;
+    }
 }
