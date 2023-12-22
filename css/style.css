@@ -139,8 +139,7 @@ h1 {
     font-weight: 700;
     color: var(--main-color);
     justify-content: center;
-    margin-left: 5%;
-    max-width: 320px;
+    width: 300px;
 }
 h2 {
     box-sizing: border-box;
