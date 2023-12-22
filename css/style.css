@@ -1028,7 +1028,7 @@ label {
     }
     .about__about-stat-3 {
         height: 200px;
-        width: auto;
+        width: 200px;
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
@@ -1038,6 +1038,14 @@ label {
         grid-column: 3/4;
         grid-row: 3/4;
         position: relative;
-        left: 70%;
+        left: 80%;
+    }
+    .about__stat-3 {
+        display: flex;
+        box-sizing: border-box;
+        height: 38px;
+        width: 200px;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
