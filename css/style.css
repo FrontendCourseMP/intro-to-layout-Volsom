@@ -1064,7 +1064,7 @@ label {
     .about-img {
         grid-row: 1 / 3;
         grid-column: 4 / 7;
-        width: 440px;
+        width: 405px;
         height: 326px;
     }
     .about__p {
@@ -1108,8 +1108,8 @@ label {
     .advantages__list-3 {
         padding: 1%;
         background-color: var(--main-color);
-        max-width: 300px;
-        width: 300px;
+        max-width: 370px;
+        width: 370px;
         border-radius: 4px;
         text-align: left;
         margin: 5% 5% 5% 5%;
@@ -1121,8 +1121,8 @@ label {
     .advantages__list-2 {
         padding: 1%;
         background-color: var(--main-color);
-        max-width: 300px;
-        width: 300px;
+        max-width: 370px;
+        width: 370px;
         border-radius: 4px;
         text-align: left;
         margin: 5% 5% 5% 5%;
@@ -1134,8 +1134,8 @@ label {
     .advantages__list-1 {
         padding: 1%;
         background-color: var(--main-color);
-        max-width: 300px;
-        width: 300px;
+        max-width: 370px;
+        width: 370px;
         border-radius: 4px;
         text-align: left;
         margin: 5% 5% 5% 5%;
@@ -1163,3 +1163,7 @@ label {
         display: none;
     }
 }
+::selection {
+    /* Стили */
+  }
+  
