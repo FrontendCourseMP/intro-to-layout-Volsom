@@ -1214,6 +1214,9 @@ label {
     .f-1 {
         width: 283px;
     }
+    .phone {
+        width: 283px;
+    }
 }
 ::selection {
     background-color: var(--main-color);
