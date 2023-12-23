@@ -1223,6 +1223,6 @@ label {
     color: var(--orange);
   }
   .hl:hover {
-    text-decoration: underline var(--orange);
+    text-decoration: underline var(--orange) 3px;
   }
   
