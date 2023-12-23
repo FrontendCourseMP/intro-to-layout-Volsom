@@ -1211,6 +1211,9 @@ label {
     .form-1 {
         align-items: center;
     }
+    .f-1 {
+        width: 283px;
+    }
 }
 ::selection {
     background-color: var(--main-color);
