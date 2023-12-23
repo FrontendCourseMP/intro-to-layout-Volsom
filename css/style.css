@@ -1224,5 +1224,6 @@ label {
   }
   .hl:hover {
     text-decoration: underline var(--orange) 3px;
+    text-underline-offset: 10px;
   }
   
