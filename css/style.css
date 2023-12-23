@@ -1226,4 +1226,8 @@ label {
     text-decoration: underline var(--orange) 3px;
     text-underline-offset: 10px;
   }
+  button:hover {
+    background-color: var(--blue);
+    color: var(--orange);
+  }
   
