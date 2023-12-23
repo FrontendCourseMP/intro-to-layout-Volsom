@@ -813,7 +813,6 @@ form {
     box-sizing: content-box;
     justify-content: center;
     max-width: 300px;
-    margin: 5%;
 }
 label {
     width: 280px;
