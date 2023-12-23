@@ -1162,7 +1162,7 @@ label {
     .objects__list {
         display: none;
     }
-    .form__wrapper {
+    .c-f-f {
         background-color: var(--main-color);
     }
 }
