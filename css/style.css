@@ -1222,4 +1222,7 @@ label {
     background-color: var(--main-color);
     color: var(--orange);
   }
+  .hl:hover {
+    text-decoration: underline var(--orange);
+  }
   
