@@ -1185,6 +1185,10 @@ label {
     .form__wrapper {
         height: 647px;
     }
+    .naming {
+        display: flex;
+        flex-direction: row;
+    }
     
 }
 ::selection {
