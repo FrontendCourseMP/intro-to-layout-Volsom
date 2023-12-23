@@ -1227,8 +1227,7 @@ label {
     text-underline-offset: 10px;
   }
   button:hover {
-    background-color: var(--blue);
-    color: var(--orange);
+    color: var(--blue);
   }
   .slider__button:active {
     background-color: var(--orange);
