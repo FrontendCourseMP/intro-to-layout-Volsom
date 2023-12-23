@@ -1165,6 +1165,8 @@ label {
     .c-f-f {
         flex-direction: row;
         align-items: start;
+        width: 1020px;
+        padding: 60px;
     }
     .contact-footer__wrapper {
         width: 500px;
@@ -1177,13 +1179,14 @@ label {
         align-items: start;
         width: 600px;
         max-width: 600px;
+        color: var(--blue);
     }
     .naming {
         display: flex;
         flex-direction: row;
     }
     .ph {
-        width: 100%;
+        width: 98%;
     }
     #phone_1 {
         width: 100%;
@@ -1192,8 +1195,11 @@ label {
         width: 100%;
     }
     label {
-        width: 100%;
+        width: 98%;
         margin: 10px;
+    }
+    .connect {
+        font-weight: 700;
     }
 }
 ::selection {
