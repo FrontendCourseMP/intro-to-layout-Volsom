@@ -1172,6 +1172,7 @@ label {
     .connect {
         font-weight: 700;
         color: var(--blue);
+        width: 500px;
     }
     .c-f-1 {
         display: flex;
@@ -1181,6 +1182,10 @@ label {
         width: 375px;
         margin: 0;
     }
+    .form__wrapper {
+        height: 647px;
+    }
+    
 }
 ::selection {
     background-color: var(--main-color);
