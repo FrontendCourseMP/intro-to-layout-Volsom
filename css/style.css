@@ -1169,6 +1169,10 @@ label {
         display: flex;
         flex-direction: row;
     }
+    .connect {
+        font-weight: 700;
+        color: var(--blue);
+    }
 }
 ::selection {
     background-color: var(--main-color);
