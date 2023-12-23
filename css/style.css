@@ -1162,33 +1162,7 @@ label {
     .objects__list {
         display: none;
     }
-    .c-f-f {
-        background-color: var(--main-color);
-        width: 1000px;
-        height: 647px;
-        display: flex;
-        flex-direction: row;
-    }
-    .connect {
-        font-weight: 700;
-        color: var(--blue);
-        width: 500px;
-    }
-    .c-f-1 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 375px;
-        margin: 0;
-    }
-    .form__wrapper {
-        height: 647px;
-    }
-    .naming {
-        display: flex;
-        flex-direction: row;
-    }
+    
     
 }
 ::selection {
