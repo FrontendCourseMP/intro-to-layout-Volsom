@@ -1164,6 +1164,8 @@ label {
     }
     .c-f-f {
         background-color: var(--main-color);
+        width: 1000px;
+        height: 647px;
     }
 }
 ::selection {
