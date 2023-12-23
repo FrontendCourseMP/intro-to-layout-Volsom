@@ -1230,4 +1230,7 @@ label {
     background-color: var(--blue);
     color: var(--orange);
   }
+  .slider__button:active {
+    background-color: var(--orange);
+  }
   
