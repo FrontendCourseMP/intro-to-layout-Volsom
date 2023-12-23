@@ -1176,6 +1176,7 @@ label {
         margin-left: 50px;
         align-items: start;
         width: 600px;
+        max-width: 600px;
     }
     .naming {
         display: flex;
