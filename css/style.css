@@ -1162,8 +1162,12 @@ label {
     .objects__list {
         display: none;
     }
+    .form__wrapper {
+        background-color: var(--main-color);
+    }
 }
 ::selection {
-    /* Стили */
+    background-color: var(--main-color);
+    color: var(--orange);
   }
   
