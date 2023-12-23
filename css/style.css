@@ -1202,6 +1202,15 @@ label {
     .connect {
         font-weight: 700;
     }
+    .form__wrapper-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .form-1 {
+        align-items: center;
+    }
 }
 ::selection {
     background-color: var(--main-color);
