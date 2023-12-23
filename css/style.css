@@ -1162,8 +1162,34 @@ label {
     .objects__list {
         display: none;
     }
-    
-    
+    .c-f-f {
+        flex-direction: row;
+        align-items: start;
+    }
+    .contact-footer__wrapper {
+        width: 500px;
+    }
+    form {
+        width: 600px;
+    }
+    .form__wrapper {
+        margin-left: 50px;
+        align-items: start;
+        width: 600px;
+    }
+    .naming {
+        display: flex;
+        flex-direction: row;
+    }
+    .ph {
+        width: 100%;
+    }
+    #phone_1 {
+        width: 100%;
+    }
+    #comm{
+        width: 100%;
+    }
 }
 ::selection {
     background-color: var(--main-color);
