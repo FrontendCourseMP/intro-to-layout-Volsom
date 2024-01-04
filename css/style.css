@@ -957,7 +957,7 @@ label {
         grid-column: 1 / 2;
         grid-row: 1 / 2;
         width: 512px;
-        margin-left: auto;
+        margin-left: 70px;
         margin-right: auto;
     }
     .home {
