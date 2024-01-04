@@ -1255,7 +1255,7 @@ button:hover {
     text-underline-offset: 2px;
 }
 .contact__link-2:hover {
-    text-decoration: underline var(--orange) 3px;
+    text-decoration: underline var(--blue) 3px;
     text-underline-offset: 2px;
 }
 .equipment__list-button--BA100KD193:hover {
