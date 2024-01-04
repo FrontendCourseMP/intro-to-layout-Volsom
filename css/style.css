@@ -551,6 +551,7 @@ img {
     width: 138px;
     padding: 0;
     font-weight: 900;
+    height: 100%;
 }
 .equipment__list-button--PT150D155 {
     display: none;
@@ -558,18 +559,21 @@ img {
     width: 138px;
     padding: 0;
     font-weight: 900;
+    height: 100%;
 }
 .equipment__list-button--BA150ED285 {
     font-size: 1.6rem;
     width: 138px;
     padding: 0;
     font-weight: 900;
+    height: 100%;
 }
 .equipment__list-button--BA180ED328 {
     font-size: 1.6rem;
     width: 138px;
     padding: 0;
     font-weight: 900;
+    height: 100%;
 }
 .equipment__list-button--BA300ED328 {
     display: none;
@@ -577,6 +581,7 @@ img {
     width: 138px;
     padding: 0;
     font-weight: 900;
+    height: 100%;
 }
 .advantages__wrapper {
     box-sizing: content-box;
@@ -1230,22 +1235,37 @@ label {
     background-color: var(--main-color);
     color: var(--orange);
   }
-  .hl:hover {
+.hl:hover {
     text-decoration: underline var(--orange) 3px;
     text-underline-offset: 10px;
-  }
-  button:hover {
+}
+button:hover {
     color: var(--blue);
     background-color: var(--orange);
-  }
-  .slider__button:active {
+}
+.slider__button:active {
     background-color: var(--orange);
-  }
-  .hl-6:hover {
+}
+.hl-6:hover {
     text-decoration: underline var(--blue) 3px;
     text-underline-offset: 10px;
-  }
-  .contact__link:hover {
+}
+.contact__link:hover {
     text-decoration: underline var(--orange) 3px;
     text-underline-offset: 2px;
-  }
+}
+.equipment__list-button--BA100KD193:hover {
+    color: var(--main-color);
+}
+.equipment__list-button--PT150D155:hover {
+    color: var(--main-color);
+}
+.equipment__list-button--BA150ED285:hover {
+    color: var(--main-color);
+}
+.equipment__list-button--BA180ED328:hover {
+    color: var(--main-color);
+}
+.equipment__list-button--BA300ED328:hover {
+    color: var(--main-color);
+}
