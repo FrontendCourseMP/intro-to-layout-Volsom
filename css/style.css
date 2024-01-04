@@ -131,6 +131,7 @@ a {
     text-decoration: none;
     font-size: 1.6rem;
     color: var(--blue);
+    font-weight: 500;
 }
 h1 {
     box-sizing: border-box;
@@ -549,28 +550,33 @@ img {
     font-size: 1.6rem;
     width: 138px;
     padding: 0;
+    font-weight: 900;
 }
 .equipment__list-button--PT150D155 {
     display: none;
     font-size: 1.6rem;
     width: 138px;
     padding: 0;
+    font-weight: 900;
 }
 .equipment__list-button--BA150ED285 {
     font-size: 1.6rem;
     width: 138px;
     padding: 0;
+    font-weight: 900;
 }
 .equipment__list-button--BA180ED328 {
     font-size: 1.6rem;
     width: 138px;
     padding: 0;
+    font-weight: 900;
 }
 .equipment__list-button--BA300ED328 {
     display: none;
     font-size: 1.6rem;
     width: 138px;
     padding: 0;
+    font-weight: 900;
 }
 .advantages__wrapper {
     box-sizing: content-box;
@@ -815,6 +821,7 @@ form {
     box-sizing: content-box;
     justify-content: center;
     max-width: 300px;
+    margin-bottom: 10%;
 }
 label {
     width: 280px;
@@ -1207,6 +1214,7 @@ label {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: auto;
     }
     .form-1 {
         align-items: center;
@@ -1228,8 +1236,16 @@ label {
   }
   button:hover {
     color: var(--blue);
+    background-color: var(--orange);
   }
   .slider__button:active {
     background-color: var(--orange);
   }
-  
+  .hl-6:hover {
+    text-decoration: underline var(--blue) 3px;
+    text-underline-offset: 10px;
+  }
+  .contact__link:hover {
+    text-decoration: underline var(--orange) 3px;
+    text-underline-offset: 2px;
+  }
