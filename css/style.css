@@ -7,7 +7,7 @@
 }
 @font-face {
     font-family: 'Roboto';
-    src: url(/fonts/Roboto-Black.ttf) format('ttf');
+    src: url(/fonts/Roboto-Black.ttf) format('ttf') url(/intro-to-layout-Volsom/fonts/Roboto-Black.woff) format('woff');
     font-weight: 900;
 }
 @font-face {
