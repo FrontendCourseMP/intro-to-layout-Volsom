@@ -2,8 +2,8 @@
 /* Regular 400, Medium 500, Bold 700, Black 900 */
 @font-face {
     font-family: 'Orbitron';
-    src: url(/fonts) format('ttf');
-    font-weight: 400;
+    src: url(/fonts/Orbitron-Medium.woff) format('woff');
+    font-weight: 500;
 }
 @font-face {
     font-family: 'Roboto';
