@@ -907,6 +907,7 @@ label {
     }
     .form__wrapper-1 {
         width: auto;
+        margin-bottom: 10%;
     }
 }
 @media (min-width: 1024px) {
@@ -1184,6 +1185,7 @@ label {
         width: 1020px;
         padding: 60px;
         background-color: var(--main-color);
+        margin-left: 40px;
     }
     .contact-footer__wrapper {
         width: 500px;
@@ -1276,4 +1278,7 @@ button:hover {
 }
 .equipment__list-button--BA300ED328:hover {
     color: var(--main-color);
+}.equipment__list {
+    padding-left: 5%;
+    padding-right: 5%;
 }
