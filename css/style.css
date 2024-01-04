@@ -2,27 +2,27 @@
 /* Regular 400, Medium 500, Bold 700, Black 900 */
 @font-face {
     font-family: 'Orbitron';
-    src: url(/fonts/Orbitron-VariableFont_wght.ttf) format('ttf');
+    src: url(/fonts) format('ttf');
     font-weight: 400;
 }
 @font-face {
     font-family: 'Roboto';
-    src: url(/fonts/Roboto-Black.ttf) format('ttf'), url(/intro-to-layout-Volsom/fonts/Roboto-Black.woff) format('woff');
+    src: url(/fonts/Roboto-Black.woff) format('woff');
     font-weight: 900;
 }
 @font-face {
     font-family: 'Roboto';
-    src: url(/fonts/Roboto-Bold.ttf) format('ttf');
+    src: url(/fonts/Roboto-Bold.woff) format('woff');
     font-weight: 700;
 }
 @font-face {
     font-family: 'Roboto';
-    src: url(/fonts/Roboto-Regular.ttf) format('ttf');
+    src: url(/fonts/Roboto-Regular.woff) format('woff');
     font-weight: 400;
 }
 @font-face {
     font-family: 'Roboto';
-    src: url(/fonts/Roboto-Medium.ttf) format('ttf');
+    src: url(/fonts/Roboto-Medium.woff) format('woff');
     font-weight: 500;
 }
 .st {
