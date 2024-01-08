@@ -300,7 +300,7 @@ label {
     background-color: var(--blue);
     padding-bottom: 5%;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .home {
     padding-bottom: 5%;
