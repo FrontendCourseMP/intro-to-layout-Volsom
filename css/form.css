@@ -8,7 +8,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    width: -webkit-fill-available;
+    background-color: var(--blue);
 }
 :root {
     font-size: 62.5%;
@@ -65,10 +66,6 @@ header {
 div {
     box-sizing: border-box;
     width: 100%;
-}
-.footer {
-    position: relative;
-    top: 100vh;
 }
 .footer__wrapper {
     box-sizing: content-box;
@@ -154,4 +151,36 @@ p {
     box-sizing: border-box;
     font-size: 1.6rem;
     font-weight: 400;
+}
+form {
+    display: grid;
+    color: var(--main-color);
+    font-size: 1.6rem;
+    font-weight: 500;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+
+}
+.lic {
+    width: 265px;
+}
+.sub {
+    background-color: var(--orange);
+    color: var(--main-color);
+    border: none;
+    padding: 15px;
+}
+input {
+    font-size: 1.6rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.res {
+    background-color: var(--orange);
+    color: var(--main-color);
+    border: none;
+    padding: 15px;
 }
