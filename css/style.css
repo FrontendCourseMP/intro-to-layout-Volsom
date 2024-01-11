@@ -851,6 +851,9 @@ label {
 .grid {
     color: var(--main-color);
 }
+.forma {
+    color: var(--main-color);
+}
 .advantages__list {
     display: flex;
     flex-direction: column;
