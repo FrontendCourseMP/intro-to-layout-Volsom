@@ -14,6 +14,58 @@
         <button class="header__menu"></button>
     </header>
     <main>
+        <section>
+            <form action="//httpbin.org/post" method="post">
+                <h1>Регистрация</h1>
+                <fieldset>
+                    <legend><span>Личная информация</span></legend>
+                    <label for="name">
+                        <span>Имя</span>
+                        <input type="name" placeholder="Имя" name="name" required id="name">
+                    </label><br>
+                    <label for="birthday">
+                        <span>Дата рождения</span>
+                        <input type="date" placeholder="Дата" name="birthday" id="birthday">
+                    </label><br>
+                    <fieldset>
+                        <legend><span>Пол</span></legend>
+                        <label for="sex">
+                            <input type="radio" name="radio" value="man">
+                            М
+                            <input type="radio" name="radio" value="women">
+                            Ж
+                        </label>
+                    </fieldset>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend><span>Контактные данные</span></legend>
+                    <label for="email">
+                        <span>Email</span>
+                        <input type="email" placeholder="Адрес электронной почты" name="email" id="email" required>
+                    </label><br>
+                    <label for="tel">
+                        <span>Телефон</span>
+                        <input type="tel" placeholder="Номер телефона" name="tel" required id="tel">
+                    </label><br>
+                    <label for="password">
+                        <span>Пароль</span>
+                        <input type="password" placeholder="Пароль" name="password" id="password" required>
+                    </label><br>
+                    <label for="daytime">
+                        <span>Удобное время для связи</span>
+                        <select name="daytime" id="daytime" required>
+                            <option value="morning" selected>Утро</option>
+                            <option value="day">День</option>
+                            <option value="evening">Вечер</option>
+                            <option value="night">Ночь</option>
+                        </select>
+                    </label><br>
+                </fieldset>
+                <input type="submit" value="Отправить">
+                <input type="reset" value="Сбросить">
+            </form>
+        </section>
         <div class="footer">
             <div class="footer__wrapper">
                 <span class="under-line__grey"></span>
