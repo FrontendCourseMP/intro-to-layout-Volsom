@@ -212,6 +212,7 @@ input {
     font-weight: 700;
 }
 .res {
+    margin-top: 0;
     background-color: var(--orange);
     color: var(--main-color);
     border: none;
