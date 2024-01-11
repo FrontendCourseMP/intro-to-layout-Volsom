@@ -237,3 +237,9 @@ select:hover {
     color: var(--blue);
     background-color: var(--orange);
 }
+option:hover {
+    color: var(--blue);
+    background-color: var(--orange);
+    font-size: 1,6rem;
+    font-weight: 700;
+}
