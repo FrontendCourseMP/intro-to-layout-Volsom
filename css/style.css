@@ -1244,43 +1244,128 @@ label {
     background-color: var(--main-color);
     color: var(--orange);
   }
-.hl:hover {
-    text-decoration: underline var(--orange) 3px;
-    text-underline-offset: 10px;
+  .contact__link {
+    position: relative;
+}
+.contact__link::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -1px;
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: var(--orange);
+    color: var(--orange);
+    background-color: var(--orange);
+}
+.contact__link::after {
+    width: 0;
+    transition: 0.3s;
+  }
+.contact__link:hover:after {
+    width: 100%;
+  }
+  .contact__link-2 {
+    position: relative;
+}
+.contact__link-2::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -1px;
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: var(--blue);
+    color: var(--blue);
+    background-color: var(--blue);
+}
+.contact__link-2::after {
+    width: 0;
+    transition: 0.3s;
+  }
+.contact__link-2:hover:after {
+    width: 100%;
+  }
+.hl {
+    position: relative;
+}
+.hl::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -10px;
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: var(--orange);
+    color: var(--orange);
+    background-color: var(--orange);
+}
+.hl::after {
+    width: 0;
+    transition: 0.3s;
+  }
+.hl:hover:after {
+    width: 100%;
+  }
+  .hl-6 {
+    position: relative;
+}
+.hl-6::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -10px;
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: var(--blue);
+    color: var(--blue);
+    background-color: var(--blue);
+}
+.hl-6::after {
+    width: 0;
+    transition: 0.3s;
+  }
+.hl-6:hover:after {
+    width: 100%;
+  }
+.send, .send-left {
+    box-shadow: 0 5px 15px 0 var(--grey-hard);
+    transition: 2s;
 }
 button:hover {
-    color: var(--blue);
     background-color: var(--orange);
+    transition: color 2s;
+    transition: transform 2s, box-shadow 2s;
+    transform: translate(0,-3px);
+    box-shadow: 0 20px 40px 0 var(--orange);
 }
 .slider__button:active {
     background-color: var(--orange);
-}
-.hl-6:hover {
-    text-decoration: underline var(--blue) 3px;
-    text-underline-offset: 10px;
-}
-.contact__link:hover {
-    text-decoration: underline var(--orange) 3px;
-    text-underline-offset: 2px;
-}
-.contact__link-2:hover {
-    text-decoration: underline var(--blue) 3px;
-    text-underline-offset: 2px;
+    transition: background-color 2s;
 }
 .equipment__list-button--BA100KD193:hover {
     color: var(--main-color);
+    transition: color 1s;
 }
 .equipment__list-button--PT150D155:hover {
     color: var(--main-color);
+    transition: color 1s;
 }
 .equipment__list-button--BA150ED285:hover {
     color: var(--main-color);
+    transition: color 1s;
 }
 .equipment__list-button--BA180ED328:hover {
     color: var(--main-color);
+    transition: color 1s;
 }
 .equipment__list-button--BA300ED328:hover {
     color: var(--main-color);
+    transition: color 1s;
 }.equipment__list {
     padding-left: 5%;
 }
